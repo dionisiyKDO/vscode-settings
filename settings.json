@@ -2,12 +2,11 @@
   "editor.quickSuggestions": {
       "strings": true
     },
-  
+
     "explorer.confirmDelete": false,
     "explorer.confirmDragAndDrop": false,
     
-    "workbench.colorTheme": "rose-pine-nvchad-theme",
-    "workbench.iconTheme": "eq-material-theme-icons-darker",
+    "workbench.colorTheme": "Rosé Pine (no italics)",
     
     "window.titleBarStyle": "custom",
     "window.commandCenter": false,
@@ -65,7 +64,6 @@
       "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "python.createEnvironment.trigger": "off",
-    "workbench.sideBar.location": "right",
     "[css]": {
       "editor.defaultFormatter": "aeschli.vscode-css-formatter"
     },
@@ -76,5 +74,24 @@
     "[python]": {
       "editor.defaultFormatter": "charliermarsh.ruff"
     },
-  
+    "workbench.sideBar.location": "right",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "fileTreeExtractor.ignoredItems": [
+      ".archive",
+      
+      ".git",
+      "node_modules",
+      "*.log",
+      ".DS_Store",
+      "tmp"
+    ],
+    "css.lint.unknownAtRules": "ignore",
+    "geminicodeassist.project": "quickstart-1589617426122",
+    "cloudcode.duetAI.project": "quickstart-1589617426122",
+    "codeium.enableCodeLens": false,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "codeium.enableConfig": {
+      "*": true,
+      "ignore": true
+    },
   }
