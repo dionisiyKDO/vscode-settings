@@ -16,7 +16,9 @@ This repository stores my personal Visual Studio Code settings. Feel free to use
 
 ### extension.txt
 1. Clone this repository.
-2. ``` Get-Content ext.txt | ForEach-Object { code --install-extension $_ }```
+2. Install with command:
+   - **Windows**: ```Get-Content extensions.txt | ForEach-Object { code --install-extension $_ }```
+   - **Linux**: ```xargs -a extensions.txt -n 1 code --install-extension```
 
 ## How to Get
 ### settings.json
